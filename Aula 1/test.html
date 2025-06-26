@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Título</h1>
+    <div class="n1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, commodi nemo aliquam dolor illo placeat culpa dignissimos. Ratione omnis, ut perspiciatis sint sapiente doloremque nemo nisi, blanditiis, accusantium dolorem saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam tenetur cupiditate recusandae vero sunt iusto distinctio facilis officia, magni, perspiciatis eveniet exercitationem dolor! Sapiente veniam beatae deleniti perferendis. Quod, eligendi. </p>
+        <h2>Olá, Mundo!</h2>
+    </div>
+    <div class="n2" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+        Clique em mim!
+    </div>
+    <script>
+        var cl = document.getElementsByClassName('n2')[0]
+        function clicar() {
+            cl.innerText = 'clicou'
+            cl.style.background = 'red'
+            cl.style.color = 'white'
+        }
+
+        function entrar() {
+            cl.innerText = 'entrou'
+            cl.style.background = 'green'
+            cl.style.color = 'black'
+        }
+
+        function saiu() {
+            cl.innerText = 'Clique em mim!'
+            cl.style.background = 'white'
+            cl.style.color = 'black'
+        }
+    </script>
+    
+</body>
+</html>

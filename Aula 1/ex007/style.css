@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.bot_somr {
+    margin-top: 5px;
+}
+
+#num1 {
+    margin-top: 15px;
+}
+
+.res {
+    margin-top: 10px;
+}
