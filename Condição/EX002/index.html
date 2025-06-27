@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div class="dados">
+            <p class="nome_ano">Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="1900" max="2025">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="txtsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="txtsex" id="femi">
+                <label for="femi">Feminino</label>
+            </p>
+            <input class="resul" type="button" value="Resultado" onclick="resultado()">
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado.
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Erickrst13</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
