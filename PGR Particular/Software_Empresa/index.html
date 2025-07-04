@@ -11,10 +11,49 @@
         <h1>Empresa Erickrst13</h1>
     </header>
     <section>
-
+        <p class="nome">Nome:
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p class="cpf">CPF:
+            <input type="number" name="cpf" id="cpf">RG:<input type="number" name="rg" id="rg">
+        </P>
+        <p class="tel">Telefone:
+            <input type="tel" name="tel" id="tel">CEP: <input type="number" name="cep" id="cep">
+        </p>
+        <div>
+            <div class="stc"><strong>Estado Civil:</strong> Solteiro
+                <input type="radio" name="stc" id="stc" class="sol" checked>
+                <label for="">Casado</label>
+                <input type="radio" name="stc" id="stc" class="cas">
+                <label for="">Divorciado</label>
+                <input type="radio" name="stc" id="stc" class="div">
+                <label for="">Viúvo</label>
+                <input type="radio" name="stc" id="stc" class="viu">
+            </div>
+            <div class="sex"><strong>Gênero:</strong> Masculino
+                <input type="radio" name="sex" id="sex" class="mas">
+                <label for="">Femino</label>
+                <input type="radio" name="sex" id="sex" class="fem">
+                <label for="">Outros</label>
+                <input type="radio" name="sex" id="sex" class="out">
+            </div>
+            <div class="carg"><strong>Cargo:</strong> Gerente
+                <input type="radio" name="carg" id="carg">
+                <label for="">Vendedor</label>
+                <input type="radio" name="carg" id="carg">
+                <label for="">Supervisor</label>
+                <input type="radio" name="carg" id="carg">
+                <label for="">Caixa</label>
+                <input type="radio" name="carg" id="carg">
+            </div>
+        </div>
+        <p class="nfun">Número do Funcionario:
+            <input type="number" name="nfun" id="nfun">
+            <input type="button" value="Registrar" class="reg">
+        </p>
     </section>
     <footer>
-
+        <p>&copy; Erickrst13</p>
     </footer>
     <script src="script.js"></script>
 </body>
