@@ -22,11 +22,22 @@ h1{
 }
 
 section{
-    min-height: 260px;
+    min-height: 290px;
     border: 2px groove black;
     margin: auto;
     max-width: 500px;
     background-color: white;
+}
+
+section > h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    border: 1px groove black;
+    border-radius: 2px;
+    height: 15px;
 }
 
 #nome{
@@ -86,7 +97,7 @@ section{
 }
 
 .viu{
-    margin-left: 39px;
+    margin-left: 40px;
 }
 
 .sex{
@@ -99,6 +110,18 @@ section{
     width: 110px;
 }
 
+.mas{
+    margin-left: 6px;
+}
+
+.fem{
+    margin-left: 27px;
+}
+
+.out{
+    margin-left: 31px;
+}
+
 .carg{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -108,6 +131,22 @@ section{
     margin-top: -88px;
     border: 1px groove black;
     width: 110px;
+}
+
+.gen{
+    margin-left: 23px;
+}
+
+.ven{
+    margin-left: 9px;
+}
+
+.sup{
+    margin-left: 2px;
+}
+
+.cax{
+    margin-left: 41px;
 }
 
 .nfun{

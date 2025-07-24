@@ -11,6 +11,7 @@
         <h1>Empresa Erickrst13</h1>
     </header>
     <section>
+        <h3>1º Funcionario</h3>
         <p class="nome">Nome:
             <input type="text" name="nome" id="nome">
         </p>
@@ -38,18 +39,18 @@
                 <input type="radio" name="sex" id="sex" class="out">
             </div>
             <div class="carg"><strong>Cargo:</strong> Gerente
-                <input type="radio" name="carg" id="carg">
+                <input type="radio" name="carg" id="carg" class="gen">
                 <label for="">Vendedor</label>
-                <input type="radio" name="carg" id="carg">
+                <input type="radio" name="carg" id="carg" class="ven">
                 <label for="">Supervisor</label>
-                <input type="radio" name="carg" id="carg">
+                <input type="radio" name="carg" id="carg" class="sup">
                 <label for="">Caixa</label>
-                <input type="radio" name="carg" id="carg">
+                <input type="radio" name="carg" id="carg" class="cax">
             </div>
         </div>
         <p class="nfun">Número do Funcionario:
             <input type="number" name="nfun" id="nfun">
-            <input type="button" value="Registrar" class="reg">
+            <input type="button" value="Registrar" class="reg" onclick="registrar()">
         </p>
     </section>
     <footer>
