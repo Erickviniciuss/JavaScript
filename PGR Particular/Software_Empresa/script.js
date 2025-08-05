@@ -39,3 +39,7 @@ function registrar(){
     }
     console.log(nome)
 }
+
+function registenter(){
+    console.log("ok")
+}
